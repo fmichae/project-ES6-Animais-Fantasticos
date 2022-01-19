@@ -1,10 +1,13 @@
 {
-  "name": "animais-fantasticos",
+  "name": "animais-eslint",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack --mode development --watch"
   },
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.14.3",
@@ -16,8 +19,5 @@
     "eslint-plugin-import": "^2.14.0",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2"
-  },
-  "dependencies": {
-    "git": "^0.1.5"
   }
 }
